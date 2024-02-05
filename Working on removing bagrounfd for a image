@@ -1,0 +1,48 @@
+05-02-2024
+
+i am working on removing in this task 
+
+STEP-1 
+i have install pip install opencv-python
+pip install numpy
+these 2 libraries 
+
+and they have installed sucessfully
+
+STEP-2
+ afteer installation of these libraries
+i have wriiten a code using numpy
+
+
+CODE: import cv2
+import numpy as np
+
+def remove_background(image_path):
+    # Read the image
+    img = cv2.imread(image_path)
+
+    # Convert the image to grayscale
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+    # Apply a threshold to create a binary mask
+    _, mask = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY)
+
+    # Invert the mask to get the foreground
+    mask_inv = cv2.bitwise_not(mask)
+
+    # Apply the mask to the original image
+    result = cv2.bitwise_and(img, img, mask=mask)
+
+    # Save or display the result
+    cv2.imwrite("result.png", result)
+    cv2.imshow("Result", result)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+if __name__ == "__main__":
+    image_path = "path/to/your/image.jpg"
+    remove_background(image_path)
+
+
+
+after running this code i am getting syntax error
