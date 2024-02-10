@@ -1,0 +1,24 @@
+SCRIPRING LANGUAGE :  Power shell,shell ,python etc are was belong to scripting languages.
+
+                    * To implement the task we use these scriptimg languages.
+
+YAML : IT is a AIN'T markup language.
+      * It is a human readable data serialization format.
+      * yaml is used to be copy to read
+EXAMPLE FPR YAML :
+         key:  value
+        nested_keyt:
+        -item 1 
+        -item 2
+      un front if item 1 and 2 there will bw spaces
+
+
+INTENDATATION: Indentation is the most importanat in yaml.
+              *  conventionally two spaces are uesed for indentation.
+              *  in indentation spaces (_) are  important.
+              *  in yaml we should write comment we should use (#).
+              * bcomments are ignored by the yaml passer.
+              *  In yaml there are differfent typws of representatipn data.
+
+MSRKUP LANGUAGE : The data when we give as a input we will known as a markup language.
+                 * when we pass the data from one place to another we use these marup language.
