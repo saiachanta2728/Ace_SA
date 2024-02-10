@@ -1,0 +1,20 @@
+# Notes about YAML in Visual Studio Code
+
+## Introduction
+YAML (YAML Ain't Markup Language) is a human-readable data serialization format commonly used for configuration files and data exchange formats.
+
+## Syntax
+- YAML uses indentation to represent data hierarchy, similar to Python.
+- Data structures like lists and dictionaries are represented using a combination of indentation and punctuation characters.
+- YAML files typically end with the `.yaml` or `.yml` extension.
+
+## Example
+```yaml
+# Sample YAML Document
+name: John Doe
+age: 30
+occupation: Developer
+skills:
+  - Python
+  - JavaScript
+  - YAML
