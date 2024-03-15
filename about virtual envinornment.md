@@ -40,9 +40,13 @@ Installing dependencies from a file: Install dependencies listed in the requirem
 bash
 Copy code
 pip install -r requirements.txt
+
 Deactivating the Virtual Environment
-To deactivate the virtual environment and return to the global Python environment, simply type:
+To deactivate the virtual environment and return to the Python environment, simply type:
 
 bash
 Copy code
 deactivate
+
+THESE KEYS WORD HELPS IN VIRTUAL ENVINORNMENT
+
